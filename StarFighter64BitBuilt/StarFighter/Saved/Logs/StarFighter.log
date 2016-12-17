@@ -1,0 +1,1474 @@
+﻿Log file open, 12/16/16 19:15:12
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1880479375) SRandInit(-1880479375).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.708546
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin Paper2D, From C:/Users/David/Desktop/StarFighter/StarFighter/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogModuleManager:Warning: ModuleManager: Module 'XMPP' not found - its StaticallyLinkedModuleInitializers function is null.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:26:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: 
+LogInit: Base directory: C:/Users/David/Desktop/StarFighter/StarFighter/StarFighter/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.17-01.15.12:923][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2016.12.17-01.15.12:923][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2016.12.17-01.15.12:929][  0]LogInit: Computer: DAVID-PC
+[2016.12.17-01.15.12:929][  0]LogInit: User: David
+[2016.12.17-01.15.12:929][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.17-01.15.12:929][  0]LogInit: High frequency timer resolution =3.122781 MHz
+[2016.12.17-01.15.12:929][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.12.17-01.15.12:929][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.12.17-01.15.12:929][  0]LogMemory: Process Physical Memory: 86.93 MB used, 86.93 MB peak
+[2016.12.17-01.15.12:929][  0]LogMemory: Process Virtual Memory: 101.11 MB used, 101.11 MB peak
+[2016.12.17-01.15.12:929][  0]LogMemory: Physical Memory: 4621.81 MB used, 12286.42 MB total
+[2016.12.17-01.15.12:929][  0]LogMemory: Virtual Memory: 325.54 MB used, 134217728.00 MB total
+[2016.12.17-01.15.15:283][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.17-01.15.15:351][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.17-01.15.15:383][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.12.17-01.15.15:383][  0]LogD3D11RHI:       4061/0/6143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.17-01.15.15:384][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.17-01.15.15:384][  0]LogD3D11RHI:       0/0/6143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.17-01.15.15:384][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.17-01.15.15:389][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.17-01.15.15:389][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.17-01.15.15:389][  0]LogWindows: EnumDisplayDevices:
+[2016.12.17-01.15.15:389][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.12.17-01.15.15:389][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.12.17-01.15.15:389][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.12.17-01.15.15:389][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.12.17-01.15.15:389][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.17-01.15.15:389][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.12.17-01.15.15:389][  0]LogD3D11RHI:   Driver Version: 375.95 (internal:21.21.13.7595, unified:375.95)
+[2016.12.17-01.15.15:389][  0]LogD3D11RHI:      Driver Date: 11-16-2016
+[2016.12.17-01.15.15:389][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.17-01.15.15:404][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.17-01.15.15:428][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.17-01.15.15:853][  0]LogAssetRegistry: FAssetRegistry took 0.0060 seconds to start up
+[2016.12.17-01.15.15:857][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.004172 seconds
+[2016.12.17-01.15.16:076][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2016.12.17-01.15.16:076][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2016.12.17-01.15.16:177][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: starfighter, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 735812121
+[2016.12.17-01.15.16:251][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.17-01.15.16:310][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.17-01.15.16:310][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.17-01.15.16:356][  0]LogMoviePlayer: Initializing movie player
+[2016.12.17-01.15.16:386][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../StarFighter/Content/Movies/Default_Startup.mp4
+[2016.12.17-01.15.16:425][  0]LogUObjectArray: 28498 objects as part of root set at end of initial load.
+[2016.12.17-01.15.16:425][  0]LogUObjectAllocator: 5683488 out of 0 bytes used by permanent object pool.
+[2016.12.17-01.15.16:425][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.17-01.15.16:452][  0]LogEngine: Initializing Engine...
+[2016.12.17-01.15.16:453][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.17-01.15.16:582][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.17-01.15.16:599][  0]LogInit: FAudioDevice initialized.
+[2016.12.17-01.15.16:600][  0]LogInit: Texture streaming: Enabled
+[2016.12.17-01.15.16:907][  0]LogInit:Display: Game Engine Initialized.
+[2016.12.17-01.15.16:907][  0]LogInit:Display: Starting Game.
+[2016.12.17-01.15.16:907][  0]LogNet: Browse: /Game/Maps/Menu?Name=Player
+[2016.12.17-01.15.16:907][  0]LogLoad: LoadMap: /Game/Maps/Menu?Name=Player
+[2016.12.17-01.15.17:100][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.12.17-01.15.17:100][  0]LogMemory: Process Physical Memory: 209.17 MB used, 209.17 MB peak
+[2016.12.17-01.15.17:100][  0]LogMemory: Process Virtual Memory: 288.24 MB used, 288.24 MB peak
+[2016.12.17-01.15.17:100][  0]LogMemory: Physical Memory: 4715.34 MB used, 12286.42 MB total
+[2016.12.17-01.15.17:100][  0]LogMemory: Virtual Memory: 643.08 MB used, 134217728.00 MB total
+[2016.12.17-01.15.17:100][  0]LogMemory: 
+[2016.12.17-01.15.17:101][  0]LogMemory: Allocator Stats for binned:
+[2016.12.17-01.15.17:101][  0]LogMemory: Current Memory 95.27 MB used, plus 6.05 MB waste
+[2016.12.17-01.15.17:101][  0]LogMemory: Peak Memory 98.60 MB used, plus 4.40 MB waste
+[2016.12.17-01.15.17:101][  0]LogMemory: Current OS Memory 101.31 MB, peak 103.00 MB
+[2016.12.17-01.15.17:101][  0]LogMemory: Current Waste 1.53 MB, peak 1.55 MB
+[2016.12.17-01.15.17:101][  0]LogMemory: Current Used 95.27 MB, peak 98.60 MB
+[2016.12.17-01.15.17:101][  0]LogMemory: Current Slack 4.52 MB
+[2016.12.17-01.15.17:101][  0]LogMemory: Allocs       140453 Current /  584851 Total
+[2016.12.17-01.15.17:101][  0]LogMemory: 
+[2016.12.17-01.15.17:101][  0]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.12.17-01.15.17:101][  0]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.12.17-01.15.17:101][  0]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.12.17-01.15.17:101][  0]LogMemory:         16         6         6      21165        58124      16      16     330K       54K        0K    100.00%
+[2016.12.17-01.15.17:101][  0]LogMemory:         32        11        11      20704        87910      17      32     647K       57K       57K     91.90%
+[2016.12.17-01.15.17:101][  0]LogMemory:         48         8         8       9717        39371      33      48     455K       57K       57K     88.87%
+[2016.12.17-01.15.17:101][  0]LogMemory:         64        20        20      20323        66523      49      64    1270K       10K       94K     92.66%
+[2016.12.17-01.15.17:101][  0]LogMemory:         80        11        11       8160        77727      65      80     637K       67K       39K     94.46%
+[2016.12.17-01.15.17:101][  0]LogMemory:         96         5         5       3404        43482      81      96     319K        1K       19K     94.06%
+[2016.12.17-01.15.17:101][  0]LogMemory:        112         4         5       2263        16293      97     112     247K        9K       16K     93.75%
+[2016.12.17-01.15.17:101][  0]LogMemory:        128        18        18       8968        31502     114     128    1121K       31K       40K     96.53%
+[2016.12.17-01.15.17:101][  0]LogMemory:        160        43        43      17414        35899     129     160    2720K       28K      231K     91.61%
+[2016.12.17-01.15.17:101][  0]LogMemory:        192        25        25       7941        23269     161     192    1488K      111K      117K     92.69%
+[2016.12.17-01.15.17:101][  0]LogMemory:        224        22        36       5998        31942     193     224    1312K       94K      135K     90.41%
+[2016.12.17-01.15.17:101][  0]LogMemory:        256         4         4        914        29062     225     256     228K       28K       15K     94.14%
+[2016.12.17-01.15.17:101][  0]LogMemory:        288         4         4        774        11534     257     288     217K       39K       12K     95.31%
+[2016.12.17-01.15.17:101][  0]LogMemory:        320         3         3        529         3419     290     320     165K       27K        6K     96.88%
+[2016.12.17-01.15.17:101][  0]LogMemory:        384        20        20       3295         6119     322     384    1235K       40K      111K     91.33%
+[2016.12.17-01.15.17:101][  0]LogMemory:        448         5         5        590         1600     386     448     258K       62K       23K     92.81%
+[2016.12.17-01.15.17:101][  0]LogMemory:        512         6         6        607         2400     450     512     303K       81K        4K     98.96%
+[2016.12.17-01.15.17:101][  0]LogMemory:        576        29        29       3092         3806     514     576    1739K      105K       63K     96.61%
+[2016.12.17-01.15.17:101][  0]LogMemory:        640         8         9        694         1100     580     640     433K       77K       24K     95.31%
+[2016.12.17-01.15.17:101][  0]LogMemory:        704         7         7        465          870     642     704     319K      129K       13K     97.10%
+[2016.12.17-01.15.17:101][  0]LogMemory:        768         3         3        242          461     706     768     181K       11K        4K     97.92%
+[2016.12.17-01.15.17:101][  0]LogMemory:        896         9         9        473         1082     769     896     413K      162K       29K     94.97%
+[2016.12.17-01.15.17:101][  0]LogMemory:       1024         8         8        297          920     899    1024     297K      215K       11K     97.85%
+[2016.12.17-01.15.17:101][  0]LogMemory:       1168         6         6        296          686    1025    1168     337K       47K       24K     93.75%
+[2016.12.17-01.15.17:101][  0]LogMemory:       1360         5         5        198         1126    1171    1360     262K       57K       26K     91.88%
+[2016.12.17-01.15.17:101][  0]LogMemory:       1632        11        11        369          679    1363    1632     588K      114K       37K     94.74%
+[2016.12.17-01.15.17:101][  0]LogMemory:       2048        13        13        272          771    1640    2048     544K      288K       48K     94.23%
+[2016.12.17-01.15.17:101][  0]LogMemory:       2336         6         6        132         1870    2050    2336     301K       83K       33K     91.41%
+[2016.12.17-01.15.17:101][  0]LogMemory:       2720         5         5         86          466    2352    2718     228K       91K       11K     96.56%
+[2016.12.17-01.15.17:101][  0]LogMemory:       3264        10        11        152         1201    2722    3264     484K      154K       30K     95.31%
+[2016.12.17-01.15.17:101][  0]LogMemory:       4096        20        23        200          650    3266    4096     800K      480K       70K     94.53%
+[2016.12.17-01.15.17:101][  0]LogMemory:       4672        13        14        104          349    4106    4672     474K      357K       24K     97.12%
+[2016.12.17-01.15.17:101][  0]LogMemory:       5456        14        19         93          322    4674    5453     495K      401K       42K     95.31%
+[2016.12.17-01.15.17:101][  0]LogMemory:       6544        18        20        131          358    5461    6542     837K      314K       64K     94.44%
+[2016.12.17-01.15.17:101][  0]LogMemory:       8192         9        10         54          899    6545    8192     432K      144K       32K     94.44%
+[2016.12.17-01.15.17:101][  0]LogMemory:       9360         8         8         49          113    8224    9360     447K       65K       26K     94.92%
+[2016.12.17-01.15.17:101][  0]LogMemory:      10912         5         5         28           56    9383   10592     298K       22K       30K     90.63%
+[2016.12.17-01.15.17:101][  0]LogMemory:      13104        10        10         47           79   10955   13056     601K       39K       44K     93.13%
+[2016.12.17-01.15.17:101][  0]LogMemory:      16384        10        12         38          155   13120   16384     608K       32K       43K     93.28%
+[2016.12.17-01.15.17:101][  0]LogMemory:      21840        21        26         54          143   16394   21766    1151K      193K      176K     86.90%
+[2016.12.17-01.15.17:101][  0]LogMemory:      32768        16        17         31           86   21904   32640     992K       32K      201K     80.37%
+[2016.12.17-01.15.17:101][  0]LogMemory:      49152         4         5         13          226       0   49152     624K      144K      192K     75.00%
+[2016.12.17-01.15.17:101][  0]LogMemory:      98304         3         4         11           23       0   97272    1056K       96K      239K     79.25%
+[2016.12.17-01.15.17:101][  0]LogMemory: 
+[2016.12.17-01.15.17:101][  0]LogMemory: 32576K allocated in pools (with 4648K slack and 2512K waste). Efficiency 92.29%
+[2016.12.17-01.15.17:101][  0]LogMemory: Allocations 140388 Current / 584674 Total (in 486 pools)
+[2016.12.17-01.15.17:101][  0]LogMemory: 
+[2016.12.17-01.15.17:112][  0]LogAIModule: Creating AISystem for world Menu
+[2016.12.17-01.15.17:112][  0]LogWorld: Game class is 'MainMenuGameMode_C'
+[2016.12.17-01.15.17:114][  0]LogWorld: Bringing World /Game/Maps/Menu.Menu up for play (max tick rate 0) at 2016.12.16-19.15.17
+[2016.12.17-01.15.17:134][  0]LogWorld: Bringing up level for play took: 0.020513
+[2016.12.17-01.15.17:135][  0]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.17-01.15.17:217][  0]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.17:217][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.17:217][  0]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.17:229][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.17:229][  0]LogLoad: Took 0.321776 seconds to LoadMap(/Game/Maps/Menu)
+[2016.12.17-01.15.17:430][  0]LogLoad: (Engine Initialization) Total time: 5.55 seconds
+[2016.12.17-01.15.17:430][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.17-01.15.17:430][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.17-01.15.17:447][  0]LogOcInput: OculusInput pre-init called
+[2016.12.17-01.15.17:543][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.12.17-01.15.17:637][  1]LogRenderer: Reallocating scene render targets to support 1600x900 (Frame:2).
+[2016.12.17-01.15.20:703][191]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.12.17-01.15.20:703][191]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.12.17-01.15.20:703][191]LogNet: Browse: /Game/Maps/Parts
+[2016.12.17-01.15.20:703][191]LogLoad: LoadMap: /Game/Maps/Parts
+[2016.12.17-01.15.20:717][191]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.12.17-01.15.20:717][191]LogMemory: Process Physical Memory: 262.70 MB used, 264.49 MB peak
+[2016.12.17-01.15.20:717][191]LogMemory: Process Virtual Memory: 523.21 MB used, 535.13 MB peak
+[2016.12.17-01.15.20:717][191]LogMemory: Physical Memory: 4802.04 MB used, 12286.42 MB total
+[2016.12.17-01.15.20:717][191]LogMemory: Virtual Memory: 895.14 MB used, 134217728.00 MB total
+[2016.12.17-01.15.20:717][191]LogMemory: 
+[2016.12.17-01.15.20:717][191]LogMemory: Allocator Stats for binned:
+[2016.12.17-01.15.20:717][191]LogMemory: Current Memory 103.69 MB used, plus 6.37 MB waste
+[2016.12.17-01.15.20:717][191]LogMemory: Peak Memory 106.54 MB used, plus 5.58 MB waste
+[2016.12.17-01.15.20:717][191]LogMemory: Current OS Memory 110.06 MB, peak 112.13 MB
+[2016.12.17-01.15.20:717][191]LogMemory: Current Waste 1.72 MB, peak 1.79 MB
+[2016.12.17-01.15.20:717][191]LogMemory: Current Used 103.69 MB, peak 106.54 MB
+[2016.12.17-01.15.20:717][191]LogMemory: Current Slack 4.65 MB
+[2016.12.17-01.15.20:717][191]LogMemory: Allocs       142926 Current /  673390 Total
+[2016.12.17-01.15.20:717][191]LogMemory: 
+[2016.12.17-01.15.20:717][191]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.12.17-01.15.20:717][191]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.12.17-01.15.20:717][191]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.12.17-01.15.20:717][191]LogMemory:         16         6         6      21498        63352      16      16     335K       49K        0K    100.00%
+[2016.12.17-01.15.20:717][191]LogMemory:         32        11        11      21258        93617      17      32     664K       40K       58K     91.76%
+[2016.12.17-01.15.20:717][191]LogMemory:         48         8         8      10184        49574      33      48     477K       35K       53K     89.65%
+[2016.12.17-01.15.20:717][191]LogMemory:         64        21        21      20671        77887      49      64    1291K       53K       96K     92.86%
+[2016.12.17-01.15.20:717][191]LogMemory:         80        11        11       8236        83514      65      80     643K       61K       39K     94.46%
+[2016.12.17-01.15.20:717][191]LogMemory:         96         6         6       3503        62622      81      96     328K       56K       22K     94.27%
+[2016.12.17-01.15.20:717][191]LogMemory:        112         5         5       2329        18363      97     112     254K       66K       16K     95.00%
+[2016.12.17-01.15.20:717][191]LogMemory:        128        18        18       9015        33482     113     128    1126K       26K       41K     96.44%
+[2016.12.17-01.15.20:717][191]LogMemory:        160        44        44      17485        38321     129     160    2732K       80K      236K     91.62%
+[2016.12.17-01.15.20:717][191]LogMemory:        192        25        25       8060        27305     161     192    1511K       88K      119K     92.56%
+[2016.12.17-01.15.20:717][191]LogMemory:        224        22        36       6014        35468     193     224    1315K       91K      131K     90.70%
+[2016.12.17-01.15.20:717][191]LogMemory:        256         5         5        975        30394     225     256     243K       77K       16K     95.00%
+[2016.12.17-01.15.20:717][191]LogMemory:        288         4         4        779        12600     257     288     219K       37K       12K     95.31%
+[2016.12.17-01.15.20:717][191]LogMemory:        320         3         3        535         4849     290     320     167K       25K        6K     96.88%
+[2016.12.17-01.15.20:717][191]LogMemory:        384        20        20       3329        10308     322     384    1248K       27K      110K     91.41%
+[2016.12.17-01.15.20:717][191]LogMemory:        448         5         5        596         2198     386     448     260K       60K       23K     92.81%
+[2016.12.17-01.15.20:717][191]LogMemory:        512         6         6        610         3805     449     512     305K       79K        3K     99.22%
+[2016.12.17-01.15.20:717][191]LogMemory:        576        29        29       3113         4166     514     576    1751K       93K       69K     96.28%
+[2016.12.17-01.15.20:717][191]LogMemory:        640         8         9        694         1121     580     640     433K       77K       23K     95.51%
+[2016.12.17-01.15.20:717][191]LogMemory:        704         7         7        475         1230     642     704     326K      122K       15K     96.65%
+[2016.12.17-01.15.20:717][191]LogMemory:        768         3         3        246          675     706     768     184K        8K        4K     97.92%
+[2016.12.17-01.15.20:717][191]LogMemory:        896         9         9        481         1142     769     896     420K      155K       29K     94.97%
+[2016.12.17-01.15.20:717][191]LogMemory:       1024         8         8        294         3510     899    1024     294K      218K        6K     98.83%
+[2016.12.17-01.15.20:717][191]LogMemory:       1168         6         6        302         1656    1025    1168     344K       40K       14K     96.35%
+[2016.12.17-01.15.20:717][191]LogMemory:       1360         5         5        200         1184    1171    1360     265K       54K       26K     91.88%
+[2016.12.17-01.15.20:717][191]LogMemory:       1632        11        11        367          721    1363    1632     584K      118K       36K     94.89%
+[2016.12.17-01.15.20:717][191]LogMemory:       2048        13        13        276         1141    1640    2048     552K      280K       43K     94.83%
+[2016.12.17-01.15.20:717][191]LogMemory:       2336         6         6        128         1902    2050    2336     292K       92K       32K     91.67%
+[2016.12.17-01.15.20:717][191]LogMemory:       2720         5         5         87          477    2341    2718     231K       88K       11K     96.56%
+[2016.12.17-01.15.20:717][191]LogMemory:       3264        10        11        153         1214    2722    3264     487K      151K       30K     95.31%
+[2016.12.17-01.15.20:717][191]LogMemory:       4096        19        23        200          864    3266    4096     800K      416K       86K     92.93%
+[2016.12.17-01.15.20:717][191]LogMemory:       4672        12        14        103          378    4106    4672     469K      298K       23K     97.01%
+[2016.12.17-01.15.20:717][191]LogMemory:       5456        14        19         94          331    4674    5453     500K      396K       42K     95.31%
+[2016.12.17-01.15.20:717][191]LogMemory:       6544        18        20        127          370    5461    6542     811K      340K       62K     94.62%
+[2016.12.17-01.15.20:717][191]LogMemory:       8192         9        11         55         1125    6545    8192     440K      136K       30K     94.79%
+[2016.12.17-01.15.20:717][191]LogMemory:       9360         8         9         52          124    8224    9360     475K       37K       28K     94.53%
+[2016.12.17-01.15.20:717][191]LogMemory:      10912         5         5         27          255    9383   10592     287K       33K       20K     93.75%
+[2016.12.17-01.15.20:717][191]LogMemory:      13104        10        10         47           84   10955   13056     601K       39K       43K     93.28%
+[2016.12.17-01.15.20:717][191]LogMemory:      16384        12        14         44          175   13120   16384     704K       64K       49K     93.62%
+[2016.12.17-01.15.20:717][191]LogMemory:      21840        21        26         53          149   16394   21766    1130K      214K      174K     87.05%
+[2016.12.17-01.15.20:717][191]LogMemory:      32768        16        17         31           91   21904   32640     992K       32K      203K     80.18%
+[2016.12.17-01.15.20:718][191]LogMemory:      49152         5         5         15          233       0   49152     720K      240K      221K     76.98%
+[2016.12.17-01.15.20:718][191]LogMemory:      98304         3         4         11           25       0   97272    1056K       96K      248K     78.47%
+[2016.12.17-01.15.20:718][191]LogMemory: 
+[2016.12.17-01.15.20:718][191]LogMemory: 33088K allocated in pools (with 4787K slack and 2548K waste). Efficiency 92.30%
+[2016.12.17-01.15.20:718][191]LogMemory: Allocations 142753 Current / 672003 Total (in 492 pools)
+[2016.12.17-01.15.20:718][191]LogMemory: 
+[2016.12.17-01.15.20:731][191]LogAIModule: Creating AISystem for world Parts
+[2016.12.17-01.15.20:731][191]LogWorld: Game class is 'PartsMenuGameMode_C'
+[2016.12.17-01.15.20:732][191]LogWorld: Bringing World /Game/Maps/Parts.Parts up for play (max tick rate 0) at 2016.12.16-19.15.20
+[2016.12.17-01.15.20:732][191]LogWorld: Bringing up level for play took: 0.000316
+[2016.12.17-01.15.20:733][191]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.17-01.15.20:733][191]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.20:733][191]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.20:733][191]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.20:739][191]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.20:739][191]LogLoad: Took 0.036197 seconds to LoadMap(/Game/Maps/Parts)
+[2016.12.17-01.15.25:601][493]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.12.17-01.15.25:601][493]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.12.17-01.15.25:601][493]LogNet: Browse: /Game/Maps/Points
+[2016.12.17-01.15.25:601][493]LogLoad: LoadMap: /Game/Maps/Points
+[2016.12.17-01.15.25:615][493]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.12.17-01.15.25:615][493]LogMemory: Process Physical Memory: 243.26 MB used, 264.79 MB peak
+[2016.12.17-01.15.25:615][493]LogMemory: Process Virtual Memory: 516.77 MB used, 584.46 MB peak
+[2016.12.17-01.15.25:615][493]LogMemory: Physical Memory: 4762.96 MB used, 12286.42 MB total
+[2016.12.17-01.15.25:615][493]LogMemory: Virtual Memory: 912.21 MB used, 134217728.00 MB total
+[2016.12.17-01.15.25:615][493]LogMemory: 
+[2016.12.17-01.15.25:616][493]LogMemory: Allocator Stats for binned:
+[2016.12.17-01.15.25:616][493]LogMemory: Current Memory 104.16 MB used, plus 6.59 MB waste
+[2016.12.17-01.15.25:616][493]LogMemory: Peak Memory 108.40 MB used, plus 5.28 MB waste
+[2016.12.17-01.15.25:616][493]LogMemory: Current OS Memory 110.75 MB, peak 113.69 MB
+[2016.12.17-01.15.25:616][493]LogMemory: Current Waste 1.72 MB, peak 1.81 MB
+[2016.12.17-01.15.25:616][493]LogMemory: Current Used 104.16 MB, peak 108.40 MB
+[2016.12.17-01.15.25:616][493]LogMemory: Current Slack 4.87 MB
+[2016.12.17-01.15.25:616][493]LogMemory: Allocs       143507 Current /  787836 Total
+[2016.12.17-01.15.25:616][493]LogMemory: 
+[2016.12.17-01.15.25:616][493]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.12.17-01.15.25:616][493]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.12.17-01.15.25:616][493]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.12.17-01.15.25:616][493]LogMemory:         16         6         6      21511        70865      16      16     336K       48K        0K    100.00%
+[2016.12.17-01.15.25:616][493]LogMemory:         32        12        12      21524       102628      17      32     672K       96K       59K     92.32%
+[2016.12.17-01.15.25:616][493]LogMemory:         48         8         8      10311        60272      33      48     483K       29K       48K     90.63%
+[2016.12.17-01.15.25:616][493]LogMemory:         64        21        21      20686        88463      49      64    1292K       52K       92K     93.15%
+[2016.12.17-01.15.25:616][493]LogMemory:         80        11        11       8273        86155      65      80     646K       58K       39K     94.46%
+[2016.12.17-01.15.25:616][493]LogMemory:         96         6         6       3537        95012      81      96     331K       53K       22K     94.27%
+[2016.12.17-01.15.25:616][493]LogMemory:        112         5         5       2329        18923      97     112     254K       66K       16K     95.00%
+[2016.12.17-01.15.25:616][493]LogMemory:        128        18        18       9024        34865     113     128    1128K       24K       40K     96.53%
+[2016.12.17-01.15.25:616][493]LogMemory:        160        44        44      17489        40115     129     160    2732K       80K      237K     91.58%
+[2016.12.17-01.15.25:616][493]LogMemory:        192        25        25       8061        31839     161     192    1511K       88K      119K     92.56%
+[2016.12.17-01.15.25:616][493]LogMemory:        224        22        36       6016        37954     193     224    1316K       90K      127K     90.98%
+[2016.12.17-01.15.25:616][493]LogMemory:        256         5         5        978        30576     225     256     244K       76K       16K     95.00%
+[2016.12.17-01.15.25:616][493]LogMemory:        288         4         4        780        12781     257     288     219K       37K       12K     95.31%
+[2016.12.17-01.15.25:616][493]LogMemory:        320         3         4        534         5580     290     320     166K       26K        5K     97.40%
+[2016.12.17-01.15.25:616][493]LogMemory:        384        21        21       3340        21655     322     384    1252K       87K       76K     94.35%
+[2016.12.17-01.15.25:616][493]LogMemory:        448         5         5        598         2662     386     448     261K       59K       23K     92.81%
+[2016.12.17-01.15.25:616][493]LogMemory:        512         6         6        617         3963     449     512     308K       76K        4K     98.96%
+[2016.12.17-01.15.25:616][493]LogMemory:        576        29        29       3114         4561     514     576    1751K       93K       72K     96.12%
+[2016.12.17-01.15.25:616][493]LogMemory:        640         8         9        701         1139     580     640     438K       72K       24K     95.31%
+[2016.12.17-01.15.25:616][493]LogMemory:        704         7         7        475         1867     642     704     326K      122K       17K     96.21%
+[2016.12.17-01.15.25:616][493]LogMemory:        768         4         4        252         1165     706     768     189K       66K        5K     98.05%
+[2016.12.17-01.15.25:616][493]LogMemory:        896        10        10        482         1339     769     896     421K      218K       29K     95.47%
+[2016.12.17-01.15.25:616][493]LogMemory:       1024         8         8        294         7531     899    1024     294K      218K        5K     99.02%
+[2016.12.17-01.15.25:616][493]LogMemory:       1168         7         8        303         2650    1025    1168     345K      103K       12K     97.32%
+[2016.12.17-01.15.25:616][493]LogMemory:       1360         5         5        200         1366    1171    1360     265K       54K       25K     92.19%
+[2016.12.17-01.15.25:616][493]LogMemory:       1632        11        13        367         1544    1363    1632     584K      118K       28K     96.02%
+[2016.12.17-01.15.25:616][493]LogMemory:       2048        13        13        290         5641    1640    2048     580K      252K       36K     95.67%
+[2016.12.17-01.15.25:616][493]LogMemory:       2336         6         7        127         1967    2050    2336     289K       95K       31K     91.93%
+[2016.12.17-01.15.25:616][493]LogMemory:       2720         5         5         88          505    2341    2718     233K       86K       12K     96.25%
+[2016.12.17-01.15.25:616][493]LogMemory:       3264        10        11        157         1543    2722    3264     500K      138K       39K     93.91%
+[2016.12.17-01.15.25:616][493]LogMemory:       4096        19        23        200         1483    3266    4096     800K      416K       85K     93.01%
+[2016.12.17-01.15.25:616][493]LogMemory:       4672        12        14        104          805    4106    4672     474K      293K       39K     94.92%
+[2016.12.17-01.15.25:616][493]LogMemory:       5456        14        19         94          338    4674    5453     500K      396K       42K     95.31%
+[2016.12.17-01.15.25:616][493]LogMemory:       6544        18        20        128          381    5461    6542     818K      333K       61K     94.70%
+[2016.12.17-01.15.25:616][493]LogMemory:       8192         9        11         55         1455    6545    8192     440K      136K       27K     95.31%
+[2016.12.17-01.15.25:616][493]LogMemory:       9360         8         9         49          131    8224    9360     447K       65K       26K     94.92%
+[2016.12.17-01.15.25:616][493]LogMemory:      10912         5         5         27          560    9383   10592     287K       33K       18K     94.38%
+[2016.12.17-01.15.25:616][493]LogMemory:      13104        12        12         59          702   10955   13056     755K       13K       62K     91.93%
+[2016.12.17-01.15.25:616][493]LogMemory:      16384        12        14         44          187   13120   16384     704K       64K       50K     93.49%
+[2016.12.17-01.15.25:616][493]LogMemory:      21840        21        26         53          760   16394   21766    1130K      214K      208K     84.52%
+[2016.12.17-01.15.25:616][493]LogMemory:      32768        16        18         31          396   21904   32640     992K       32K      212K     79.30%
+[2016.12.17-01.15.25:616][493]LogMemory:      49152         6         6         19          241       0   49152     912K      240K      280K     75.69%
+[2016.12.17-01.15.25:616][493]LogMemory:      98304         3         4         11           27       0   97272    1056K       96K      255K     77.86%
+[2016.12.17-01.15.25:616][493]LogMemory: 
+[2016.12.17-01.15.25:616][493]LogMemory: 33728K allocated in pools (with 5011K slack and 2635K waste). Efficiency 92.19%
+[2016.12.17-01.15.25:616][493]LogMemory: Allocations 143333 Current / 784593 Total (in 500 pools)
+[2016.12.17-01.15.25:616][493]LogMemory: 
+[2016.12.17-01.15.25:638][493]LogAIModule: Creating AISystem for world Points
+[2016.12.17-01.15.25:639][493]LogWorld: Game class is 'PointsMenuGameMode_C'
+[2016.12.17-01.15.25:640][493]LogWorld: Bringing World /Game/Maps/Points.Points up for play (max tick rate 0) at 2016.12.16-19.15.25
+[2016.12.17-01.15.25:640][493]LogWorld: Bringing up level for play took: 0.000320
+[2016.12.17-01.15.25:640][493]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.12.17-01.15.25:640][493]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.25:640][493]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.25:640][493]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.25:666][493]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.25:666][493]LogLoad: Took 0.064657 seconds to LoadMap(/Game/Maps/Points)
+[2016.12.17-01.15.37:804][246]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.12.17-01.15.37:804][246]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.12.17-01.15.37:804][246]LogNet: Browse: /Game/Maps/World
+[2016.12.17-01.15.37:804][246]LogLoad: LoadMap: /Game/Maps/World
+[2016.12.17-01.15.37:817][246]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2016.12.17-01.15.37:817][246]LogMemory: Process Physical Memory: 242.60 MB used, 264.79 MB peak
+[2016.12.17-01.15.37:817][246]LogMemory: Process Virtual Memory: 518.25 MB used, 584.46 MB peak
+[2016.12.17-01.15.37:817][246]LogMemory: Physical Memory: 4752.55 MB used, 12286.42 MB total
+[2016.12.17-01.15.37:817][246]LogMemory: Virtual Memory: 899.64 MB used, 134217728.00 MB total
+[2016.12.17-01.15.37:817][246]LogMemory: 
+[2016.12.17-01.15.37:818][246]LogMemory: Allocator Stats for binned:
+[2016.12.17-01.15.37:818][246]LogMemory: Current Memory 104.53 MB used, plus 6.91 MB waste
+[2016.12.17-01.15.37:818][246]LogMemory: Peak Memory 109.33 MB used, plus 5.29 MB waste
+[2016.12.17-01.15.37:818][246]LogMemory: Current OS Memory 111.44 MB, peak 114.63 MB
+[2016.12.17-01.15.37:818][246]LogMemory: Current Waste 1.72 MB, peak 1.85 MB
+[2016.12.17-01.15.37:818][246]LogMemory: Current Used 104.53 MB, peak 109.33 MB
+[2016.12.17-01.15.37:818][246]LogMemory: Current Slack 5.19 MB
+[2016.12.17-01.15.37:818][246]LogMemory: Allocs       144080 Current /  1080566 Total
+[2016.12.17-01.15.37:818][246]LogMemory: 
+[2016.12.17-01.15.37:818][246]LogMemory: Block Size Num Pools Max Pools Cur Allocs Total Allocs Min Req Max Req Mem Used Mem Slack Mem Waste Efficiency
+[2016.12.17-01.15.37:818][246]LogMemory: ---------- --------- --------- ---------- ------------ ------- ------- -------- --------- --------- ----------
+[2016.12.17-01.15.37:818][246]LogMemory:          8         0         0          0            0       8       0       0K        0K        0K    100.00%
+[2016.12.17-01.15.37:818][246]LogMemory:         16         6         6      21583       111336      16      16     337K       47K        0K    100.00%
+[2016.12.17-01.15.37:818][246]LogMemory:         32        12        12      21650       143230      17      32     676K       92K       75K     90.23%
+[2016.12.17-01.15.37:818][246]LogMemory:         48         8         8      10388        84283      33      48     486K       26K       42K     91.80%
+[2016.12.17-01.15.37:818][246]LogMemory:         64        22        22      20731       110762      49      64    1295K      113K       82K     94.18%
+[2016.12.17-01.15.37:818][246]LogMemory:         80        11        11       8380        90690      65      80     654K       50K       39K     94.46%
+[2016.12.17-01.15.37:818][246]LogMemory:         96         6         6       3584       155821      81      96     336K       48K       24K     93.75%
+[2016.12.17-01.15.37:818][246]LogMemory:        112         5         5       2347        20213      97     112     256K       64K       15K     95.31%
+[2016.12.17-01.15.37:818][246]LogMemory:        128        19        19       9027        37249     113     128    1128K       88K       39K     96.79%
+[2016.12.17-01.15.37:818][246]LogMemory:        160        44        44      17491        43135     129     160    2732K       80K      236K     91.62%
+[2016.12.17-01.15.37:818][246]LogMemory:        192        25        25       8062        64354     161     192    1511K       88K       80K     95.00%
+[2016.12.17-01.15.37:818][246]LogMemory:        224        22        36       6036        42483     193     224    1320K       86K      121K     91.41%
+[2016.12.17-01.15.37:818][246]LogMemory:        256         5         5        985        30865     225     256     246K       74K       16K     95.00%
+[2016.12.17-01.15.37:818][246]LogMemory:        288         4         4        780        18456     257     288     219K       37K       12K     95.31%
+[2016.12.17-01.15.37:818][246]LogMemory:        320         3         4        534         7225     290     320     166K       26K        4K     97.92%
+[2016.12.17-01.15.37:818][246]LogMemory:        384        21        21       3340        30633     322     384    1252K       87K       82K     93.90%
+[2016.12.17-01.15.37:818][246]LogMemory:        448         6         6        599         4065     386     448     262K      122K       22K     94.27%
+[2016.12.17-01.15.37:818][246]LogMemory:        512         7         7        613         4349     449     512     306K      142K        5K     98.88%
+[2016.12.17-01.15.37:818][246]LogMemory:        576        29        29       3115         5449     514     576    1752K       92K       78K     95.80%
+[2016.12.17-01.15.37:818][246]LogMemory:        640         8         9        696         1152     580     640     435K       75K       23K     95.51%
+[2016.12.17-01.15.37:818][246]LogMemory:        704         7         7        478         3378     642     704     328K      120K       19K     95.76%
+[2016.12.17-01.15.37:818][246]LogMemory:        768         4         4        257         1946     706     768     192K       63K        5K     98.05%
+[2016.12.17-01.15.37:818][246]LogMemory:        896         9        10        497         1501     769     896     434K      141K       30K     94.79%
+[2016.12.17-01.15.37:818][246]LogMemory:       1024         8         8        299        17410     899    1024     299K      213K        5K     99.02%
+[2016.12.17-01.15.37:818][246]LogMemory:       1168         7         8        303         2802    1025    1168     345K      103K       12K     97.32%
+[2016.12.17-01.15.37:818][246]LogMemory:       1360         5         5        204         5333    1171    1360     270K       49K       27K     91.56%
+[2016.12.17-01.15.37:818][246]LogMemory:       1632        11        13        367         7029    1363    1632     584K      118K       45K     93.61%
+[2016.12.17-01.15.37:818][246]LogMemory:       2048        13        13        292         8961    1640    2048     584K      248K       33K     96.03%
+[2016.12.17-01.15.37:818][246]LogMemory:       2336         6         7        133         2015    2050    2336     303K       81K       32K     91.67%
+[2016.12.17-01.15.37:818][246]LogMemory:       2720         5         7         87          570    2341    2718     231K       88K       12K     96.25%
+[2016.12.17-01.15.37:818][246]LogMemory:       3264        10        11        160         2397    2722    3264     510K      128K       50K     92.19%
+[2016.12.17-01.15.37:818][246]LogMemory:       4096        19        23        202         2251    3266    4096     808K      408K      105K     91.37%
+[2016.12.17-01.15.37:818][246]LogMemory:       4672        12        14        105          827    4106    4672     479K      288K       39K     94.92%
+[2016.12.17-01.15.37:818][246]LogMemory:       5456        14        19         95          347    4674    5453     506K      390K       43K     95.20%
+[2016.12.17-01.15.37:818][246]LogMemory:       6544        18        20        127          394    5461    6542     811K      340K       61K     94.70%
+[2016.12.17-01.15.37:818][246]LogMemory:       8192         9        11         55         2235    6545    8192     440K      136K       25K     95.66%
+[2016.12.17-01.15.37:818][246]LogMemory:       9360         8         9         49          136    8224    9360     447K       65K       27K     94.73%
+[2016.12.17-01.15.37:818][246]LogMemory:      10912         5         5         27         1317    9383   10592     287K       33K       18K     94.38%
+[2016.12.17-01.15.37:818][246]LogMemory:      13104        13        13         62         2213   10955   13056     793K       39K       66K     92.07%
+[2016.12.17-01.15.37:818][246]LogMemory:      16384        14        15         47          200   13120   16384     752K      144K       54K     93.97%
+[2016.12.17-01.15.37:818][246]LogMemory:      21840        21        26         53         2271   16394   21766    1130K      214K      210K     84.38%
+[2016.12.17-01.15.37:818][246]LogMemory:      32768        17        18         32         1154   21904   32640    1024K       64K      220K     79.78%
+[2016.12.17-01.15.37:818][246]LogMemory:      49152         7         7         21          249       0   49152    1008K      336K      306K     77.23%
+[2016.12.17-01.15.37:818][246]LogMemory:      98304         3         4         11           30       0   97272    1056K       96K      258K     77.60%
+[2016.12.17-01.15.37:818][246]LogMemory: 
+[2016.12.17-01.15.37:818][246]LogMemory: 34368K allocated in pools (with 5342K slack and 2697K waste). Efficiency 92.15%
+[2016.12.17-01.15.37:818][246]LogMemory: Allocations 143905 Current / 1072717 Total (in 508 pools)
+[2016.12.17-01.15.37:818][246]LogMemory: 
+[2016.12.17-01.15.37:891][246]LogAIModule: Creating AISystem for world World
+[2016.12.17-01.15.37:891][246]LogWorld: Game class is 'BaseGameModeBP_C'
+[2016.12.17-01.15.37:893][246]LogWorld: Bringing World /Game/Maps/World.World up for play (max tick rate 0) at 2016.12.16-19.15.37
+[2016.12.17-01.15.37:893][246]LogWorld: Bringing up level for play took: 0.001177
+[2016.12.17-01.15.37:894][246]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.37:894][246]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.17-01.15.37:894][246]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.37:894][246]LogScript:Warning: Accessed None trying to read property CallFunc_GetPlayerPawn_ReturnValue
+	BP_HUD_C /Game/Maps/World.World:PersistentLevel.BP_HUD_C_0
+	Function /Game/Blueprints/UI/BP_HUD.BP_HUD_C:ExecuteUbergraph_BP_HUD:00BA
+[2016.12.17-01.15.37:895][246]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/UI/BP_HUD.BP_HUD_C:ReceiveBeginPlay
+	Function /Game/Blueprints/UI/BP_HUD.BP_HUD_C:ExecuteUbergraph_BP_HUD
+
+[2016.12.17-01.15.37:975][246]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.17-01.15.37:976][246]LogLoad: Took 0.171522 seconds to LoadMap(/Game/Maps/World)
+[2016.12.17-01.15.38:809][295]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.38:809][295]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.38:853][295]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.38:853][295]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.38:921][300]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.38:921][300]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.38:985][304]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.38:985][304]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:034][307]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:034][307]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:147][314]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:147][314]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:163][315]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:163][315]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:260][321]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:260][321]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:341][326]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:341][326]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:373][328]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:373][328]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:486][335]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:486][335]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:518][337]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:518][337]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:599][342]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:599][342]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:696][348]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:696][348]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:712][349]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:712][349]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:825][356]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:825][356]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:873][359]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:873][359]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:938][363]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.39:938][363]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:051][370]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:051][370]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:051][370]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:051][370]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:164][377]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:164][377]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:228][381]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:228][381]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:277][384]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:277][384]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:390][391]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:390][391]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:406][392]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:406][392]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:502][398]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:503][398]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:583][403]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:583][403]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:615][405]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:615][405]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:729][412]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:729][412]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:761][414]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:761][414]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:842][419]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:842][419]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:939][425]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:939][425]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:955][426]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.40:955][426]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:600][466]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:600][466]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:623][466]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:623][466]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:708][472]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:708][472]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:773][476]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:773][476]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:821][479]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:821][479]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:934][486]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:934][486]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:950][487]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.41:950][487]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:547][524]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:547][524]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:547][524]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:547][524]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:660][531]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:660][531]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:724][535]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:724][535]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:773][538]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:773][538]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:886][545]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:886][545]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:902][546]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:902][546]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:999][552]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.42:999][552]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:563][587]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:563][587]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:564][587]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:564][587]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:676][594]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:676][594]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:741][598]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:741][598]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:790][601]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:790][601]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:902][608]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:902][608]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:918][609]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.43:918][609]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:015][615]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:015][615]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:531][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:532][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:532][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:532][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:644][654]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:644][654]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:709][658]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:709][658]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:758][661]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:758][661]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:877][668]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:877][668]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:877][668]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:877][668]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:990][675]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.44:990][675]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:054][679]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:054][679]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:103][682]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:103][682]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:587][712]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:587][712]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:587][712]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:587][712]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:700][719]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:700][719]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:764][723]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:764][723]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:813][726]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:813][726]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:926][733]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:926][733]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:942][734]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.45:942][734]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:038][740]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:038][740]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:119][745]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:119][745]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:151][747]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:151][747]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:265][754]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:265][754]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:297][756]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:297][756]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:377][761]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:377][761]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:474][767]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.46:474][767]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:554][834]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:554][834]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:554][834]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:554][834]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:667][841]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:667][841]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:731][845]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:731][845]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:780][848]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:780][848]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:892][855]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:893][855]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:909][856]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.47:909][856]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.48:005][862]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.48:006][862]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.48:086][867]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.48:086][867]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.48:118][869]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.48:119][869]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:618][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:618][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:619][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:619][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:731][969]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:731][969]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:796][973]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:796][973]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:844][976]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:844][976]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:957][983]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:958][983]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:974][984]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.49:974][984]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:070][990]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:070][990]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:151][995]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:151][995]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:184][997]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:184][997]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:296][  4]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:296][  4]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:328][  6]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:329][  6]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:409][ 11]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:409][ 11]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:506][ 17]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:506][ 17]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:522][ 18]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:522][ 18]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:635][ 25]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:635][ 25]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:683][ 28]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:683][ 28]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:748][ 32]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:748][ 32]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:861][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:861][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:861][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.50:861][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:667][ 89]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:667][ 89]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:668][ 89]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:668][ 89]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:780][ 96]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:780][ 96]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:844][100]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:844][100]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:893][103]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.51:893][103]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:007][110]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:007][110]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:022][111]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:022][111]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:118][117]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:119][117]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:200][122]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:200][122]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:233][124]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:233][124]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:345][131]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:345][131]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:377][133]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:377][133]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:458][138]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.52:458][138]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.53:990][233]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.53:990][233]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.53:990][233]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.53:990][233]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:103][240]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:103][240]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:167][244]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:168][244]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:700][277]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:700][277]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:700][277]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:700][277]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:812][284]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:812][284]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:877][288]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.54:877][288]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:312][315]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:312][315]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:313][315]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:313][315]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:764][343]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:764][343]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:764][343]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.55:764][343]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:119][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:119][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:119][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:119][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:458][386]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:458][386]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:459][386]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:459][386]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:571][393]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:571][393]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:635][397]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:635][397]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:684][400]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.56:684][400]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:184][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:184][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:184][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:184][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:297][438]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:297][438]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:361][442]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:361][442]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:732][465]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:732][465]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:732][465]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:732][465]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:845][472]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:845][472]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:910][476]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:910][476]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:958][479]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.57:958][479]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.58:071][486]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.58:071][486]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.58:087][487]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.15.58:087][487]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:232][930]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:232][930]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:232][930]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:232][930]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:344][937]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:345][937]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:409][941]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:409][941]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:457][944]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:457][944]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:570][951]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:570][951]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:586][952]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:586][952]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:683][958]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:683][958]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:764][963]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:764][963]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:796][965]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:796][965]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:909][972]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.05:909][972]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:748][ 24]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:748][ 24]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:748][ 24]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:749][ 24]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:861][ 31]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:861][ 31]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:925][ 35]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:925][ 35]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:974][ 38]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.06:974][ 38]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:087][ 45]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:087][ 45]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:103][ 46]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:103][ 46]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:200][ 52]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:200][ 52]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:280][ 57]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:280][ 57]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:314][ 59]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:314][ 59]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:426][ 66]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:426][ 66]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:458][ 68]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:458][ 68]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:539][ 73]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:539][ 73]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:636][ 79]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:636][ 79]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:652][ 80]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:652][ 80]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:765][ 87]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:765][ 87]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:813][ 90]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:813][ 90]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:878][ 94]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:878][ 94]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:991][101]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:991][101]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:991][101]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.07:991][101]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:104][108]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:104][108]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:168][112]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:168][112]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:216][115]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:217][115]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:330][122]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:330][122]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:346][123]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:346][123]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:443][129]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:443][129]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:523][134]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:523][134]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:556][136]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:556][136]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:669][143]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:669][143]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:701][145]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:701][145]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:781][150]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:781][150]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:878][156]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:879][156]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:895][157]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.08:895][157]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:008][164]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:008][164]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:056][167]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:056][167]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:120][171]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:120][171]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:233][178]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:233][178]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:233][178]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:234][178]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:347][185]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:347][185]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:411][189]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:411][189]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:459][192]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:459][192]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:572][199]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:572][199]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:588][200]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:588][200]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:685][206]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.09:685][206]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:412][313]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:412][313]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:412][313]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:412][313]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:460][316]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:460][316]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:461][316]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:461][316]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:573][323]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:573][323]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:590][324]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:590][324]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:590][324]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:590][324]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:637][327]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:637][327]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:686][330]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:686][330]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:767][335]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:767][335]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:767][335]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:767][335]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:799][337]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:799][337]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:815][338]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:815][338]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:912][344]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:912][344]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:944][346]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:944][346]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:945][346]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:945][346]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:992][349]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.11:992][349]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:025][351]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:025][351]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:138][358]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:138][358]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:170][360]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:170][360]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:250][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.12:250][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:637][451]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:637][451]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:638][451]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:638][451]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:814][462]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:814][462]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:815][462]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:815][462]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:992][473]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:992][473]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:993][473]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.13:993][473]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:170][484]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:170][484]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:170][484]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:170][484]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:347][495]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:347][495]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:347][495]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:347][495]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:525][506]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:525][506]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:525][506]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:525][506]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:702][517]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:702][517]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:702][517]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:702][517]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:718][518]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:718][518]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:719][518]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:719][518]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:831][525]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:831][525]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:880][528]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:880][528]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:880][528]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:881][528]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:895][529]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:895][529]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:944][532]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.14:944][532]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:057][539]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:057][539]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:058][539]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:058][539]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:058][539]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:058][539]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:073][540]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:073][540]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:170][546]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:170][546]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:234][550]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:234][550]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:235][550]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:235][550]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:251][551]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:251][551]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:283][553]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:283][553]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:395][560]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:395][560]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:412][561]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:412][561]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:412][561]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:412][561]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:428][562]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:428][562]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:508][567]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:509][567]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:589][572]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:590][572]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:590][572]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:590][572]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:767][583]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:767][583]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:767][583]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:767][583]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:944][594]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:944][594]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:944][594]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.15:945][594]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:121][605]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:121][605]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:122][605]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:122][605]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:299][616]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:299][616]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:300][616]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:300][616]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:476][627]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:476][627]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:477][627]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:477][627]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:622][636]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:622][636]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:622][636]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:622][636]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:654][638]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:654][638]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:655][638]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:655][638]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:734][643]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:735][643]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:799][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:799][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:832][649]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:832][649]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:832][649]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:833][649]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:848][650]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:848][650]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:961][657]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:961][657]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:977][658]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.16:977][658]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:010][660]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:010][660]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:010][660]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:010][660]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:074][664]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:074][664]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:154][669]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:154][669]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:187][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:187][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:188][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:188][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:188][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:188][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:300][678]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:300][678]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:332][680]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:333][680]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:364][682]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:364][682]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:365][682]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:365][682]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:413][685]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:413][685]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:510][691]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:510][691]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:526][692]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:526][692]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:542][693]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:542][693]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:543][693]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:543][693]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:641][699]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:641][699]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:687][702]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:688][702]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:720][704]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:720][704]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:721][704]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:721][704]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:752][706]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:752][706]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:865][713]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:866][713]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:866][713]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:866][713]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:898][715]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:898][715]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:898][715]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:898][715]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:978][720]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.17:979][720]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:075][726]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:075][726]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:076][726]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:076][726]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:253][737]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:253][737]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:253][737]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:253][737]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:430][748]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:430][748]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:431][748]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:431][748]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:608][759]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:608][759]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:608][759]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:608][759]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:785][770]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:785][770]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:786][770]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:786][770]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:963][781]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:963][781]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:963][781]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.18:963][781]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:140][792]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:140][792]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:141][792]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:141][792]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:237][798]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:237][798]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:237][798]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:237][798]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:317][803]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:317][803]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:318][803]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:318][803]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:350][805]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:350][805]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:414][809]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:414][809]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:463][812]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:463][812]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:495][814]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:495][814]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:496][814]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:496][814]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:576][819]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:576][819]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:592][820]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:592][820]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:673][825]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:673][825]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:673][825]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:673][825]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:689][826]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:689][826]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:769][831]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:769][831]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:802][833]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:802][833]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:915][840]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.19:915][840]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:414][995]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:414][995]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:414][995]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:414][995]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:591][  6]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:592][  6]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:592][  6]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:592][  6]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:768][ 17]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:769][ 17]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:769][ 17]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:769][ 17]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:946][ 28]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:946][ 28]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:946][ 28]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.22:946][ 28]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:124][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:124][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:124][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:124][ 39]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:301][ 50]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:301][ 50]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:301][ 50]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:301][ 50]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:478][ 61]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:478][ 61]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:479][ 61]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:479][ 61]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:655][ 72]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:656][ 72]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:656][ 72]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:656][ 72]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:833][ 83]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:833][ 83]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:833][ 83]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.23:833][ 83]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:010][ 94]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:010][ 94]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:011][ 94]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:011][ 94]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:188][105]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:188][105]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:188][105]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:188][105]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:365][116]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:365][116]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:365][116]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:365][116]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:542][127]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:542][127]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:542][127]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:542][127]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:720][138]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:720][138]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:720][138]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:720][138]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:897][149]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:897][149]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:897][149]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.24:897][149]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:074][160]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:074][160]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:075][160]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:075][160]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:251][171]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:251][171]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:252][171]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:252][171]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:429][182]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:429][182]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:430][182]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:430][182]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:606][193]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:606][193]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:607][193]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:607][193]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:784][204]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:784][204]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:785][204]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:785][204]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:962][215]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:962][215]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:962][215]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.25:962][215]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:139][226]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:139][226]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:139][226]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:139][226]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:316][237]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:316][237]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:317][237]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:317][237]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:494][248]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:494][248]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:494][248]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:494][248]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:671][259]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:671][259]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:672][259]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:672][259]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:849][270]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:849][270]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:849][270]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.26:849][270]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:026][281]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:026][281]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:026][281]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:027][281]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:204][292]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:204][292]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:204][292]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:205][292]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:381][303]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:381][303]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:381][303]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:382][303]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:559][314]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:559][314]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:559][314]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:559][314]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:736][325]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:736][325]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:737][325]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:737][325]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:914][336]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:914][336]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:914][336]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.27:914][336]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:091][347]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:091][347]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:092][347]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:092][347]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:204][354]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:204][354]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:205][354]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:205][354]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:269][358]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:269][358]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:270][358]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:270][358]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:317][361]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:317][361]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:382][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:382][365]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:430][368]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:430][368]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:446][369]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:447][369]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:447][369]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:447][369]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:543][375]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:543][375]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:559][376]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:559][376]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:624][380]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:624][380]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:624][380]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:625][380]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:656][382]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:656][382]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:737][387]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:737][387]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:769][389]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:769][389]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:802][391]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:802][391]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:802][391]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:802][391]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:882][396]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:882][396]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:914][398]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:915][398]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:979][402]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:979][402]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:980][402]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:980][402]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:995][403]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.28:995][403]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:092][409]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:092][409]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:108][410]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:108][410]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:157][413]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:157][413]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:157][413]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:157][413]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:221][417]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:221][417]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:269][420]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:269][420]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:334][424]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:334][424]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:334][424]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:334][424]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:335][424]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:335][424]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:446][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:447][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:447][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:447][431]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:560][438]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.29:560][438]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:333][548]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:333][548]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:333][548]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:334][548]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:446][555]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:446][555]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:511][559]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:511][559]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:559][562]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:559][562]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:672][569]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:672][569]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:688][570]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:688][570]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:784][576]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:784][576]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:866][581]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:866][581]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:898][583]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.31:898][583]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:011][590]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:011][590]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:043][592]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:043][592]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:124][597]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:124][597]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:221][603]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:221][603]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:237][604]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:237][604]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:350][611]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:350][611]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:398][614]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:398][614]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:463][618]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:463][618]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:576][625]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:576][625]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:576][625]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:576][625]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:689][632]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:689][632]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:753][636]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:753][636]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:802][639]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:802][639]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:914][646]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:915][646]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:930][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.32:931][647]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.33:027][653]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.33:027][653]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: 
+[2016.12.17-01.16.36:073][842]Closing by request
+[2016.12.17-01.16.36:073][842]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.12.17-01.16.36:076][843]LogMoviePlayer: Shutting down movie player
+[2016.12.17-01.16.36:480][843]LogSlate: Request Window 'StarFighter (64-bit, PCD3D_SM5)' being destroyed
+[2016.12.17-01.16.36:507][843]LogSlate: Window 'StarFighter (64-bit, PCD3D_SM5)' being destroyed
+[2016.12.17-01.16.36:508][843]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.17-01.16.36:510][843]LogSlate: HittestGrid destroyed
+[2016.12.17-01.16.36:537][843]LogExit: Preparing to exit.
+[2016.12.17-01.16.36:585][843]LogExit: Game engine shut down
+[2016.12.17-01.16.36:680][843]LogObj: Freed 32b from 1 cluster array pools.
+[2016.12.17-01.16.36:680][843]LogExit: Object subsystem successfully closed.
+[2016.12.17-01.16.36:727][843]LogD3D11RHI: Shutdown
+[2016.12.17-01.16.36:727][843]LogD3D11RHI: CleanupD3DDevice
+[2016.12.17-01.16.36:767][843]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module AutomationController (67)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module AutomationWorker (66)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module GameplayDebugger (65)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module AIModule (64)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module CharacterAI (63)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (62)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (61)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module Media (60)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (59)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module SessionServices (58)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module Niagara (57)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (56)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module AnalyticsET (55)
+[2016.12.17-01.16.36:767][843]LogModuleManager: Shutting down and abandoning module ProfilerService (54)
+[2016.12.17-01.16.37:012][843]LogModuleManager: Shutting down and abandoning module TaskGraph (53)
+[2016.12.17-01.16.37:012][843]LogModuleManager: Shutting down and abandoning module HTML5Networking (52)
+[2016.12.17-01.16.37:012][843]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (50)
+[2016.12.17-01.16.37:012][843]LogModuleManager: Shutting down and abandoning module CableComponent (49)
+[2016.12.17-01.16.37:012][843]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (48)
+[2016.12.17-01.16.37:012][843]LogModuleManager: Shutting down and abandoning module OculusInput (47)
+[2016.12.17-01.16.37:012][843]LogModuleManager: Shutting down and abandoning module OculusLibrary (46)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (45)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module SteamVRController (44)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module SteamVR (43)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module SlateRemote (42)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module StarFighter (41)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module Paper2D (40)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (39)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module TcpMessaging (38)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module UdpMessaging (37)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module WmfMedia (36)
+[2016.12.17-01.16.37:013][843]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (35)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module ImageWrapper (34)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module MediaAssets (33)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (32)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module UMG (31)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module SlateReflector (30)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module Slate (29)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module Messaging (28)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (27)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module XAudio2 (26)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module Networking (24)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module Core (23)
+[2016.12.17-01.16.37:027][843]LogModuleManager: Shutting down and abandoning module AssetRegistry (22)
+[2016.12.17-01.16.37:028][843]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.12.17-01.16.37:028][843]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (20)
+[2016.12.17-01.16.37:028][843]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.17-01.16.37:028][843]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (18)
+[2016.12.17-01.16.37:028][843]LogModuleManager: Shutting down and abandoning module GearVR (17)
+[2016.12.17-01.16.37:028][843]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.12.17-01.16.37:028][843]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2016.12.17-01.16.37:028][843]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.17-01.16.37:028][843]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B830184ED-491D-BDAF-B3D4-6AA32C503C80%7D&AppID=UEGame.Rocket.Release%7C00000000000000000000000000000000%7CUE4Game&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=ANON-%7BFECED8F6-4547-5B3C-A661-048D5101C706%7D&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.17-01.16.37:030][843]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.17-01.16.37:030][843]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.17-01.16.37:030][843]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.17-01.16.37:031][843]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.17-01.16.37:032][843]LogExit: Exiting.
+[2016.12.17-01.16.37:033][843]Log file closed, 12/16/16 19:16:37
